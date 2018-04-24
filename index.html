@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rpg the Rpg</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Smythe" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <h1>Crystal Collector</h1>
+    <div class="gems gemfloater">
+              
+        <a href="#" class="icon"><img src="assets/images/blueGem.png" class="gemImage icon one" id="one" alt="Blue Gem"></a>
+        <a href="#" class="icon">
+        <img src="assets/images/greenGem.png" class="gemImage icon two" id="two" alt="Green Gem"></a>
+
+        <a href="#" class="icon"><img src="assets/images/purpleGem.png" class="gemImage icon three" id= "three" alt="Red Gem"></a>
+
+        <a href="#" class="icon"><img src="assets/images/yellowGem.png" class="gemImage icon four" id= "four" alt="Yellow Gem"></a>
+
+      </div>
+      <div class="gameInfo"><h2>Your Goal Number is   <span id="randomNumber">__</span></h2>
+        <br>
+        <h2> Your Current Number is  <span id="userscore">__</span></h2>
+        <br>
+        <h2>Wins: <span id="wins"></span></h2>
+        <br>
+        <h2>Losses:  <span id="losses"></span></h2>
+        
+      </div>
+
+     
+    <h4></h4>
+  </header>
+  
+
+
+
+
+<div class="container">
+  <div class="content">
+
+        <h3>Instructions</h3>
+        <span id="randomNumber"></span>
+          <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+          <li>You win the game by matching your total score to the random number.</li>
+          <li>You lose the game if your total score goes above the random number.</li>
+          <li>The value of each crystal is hidden from you until you click on it.</li>
+          <li>Each time when the game starts, the game will change the values of each crystal.</li>
+      
+          </div>
+ 
+
+  </div>
+
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
